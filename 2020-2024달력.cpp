@@ -35,9 +35,7 @@ int main()
 		}
 		if (setYear > 0)//윤년 1일 추가 계산 2020 일때랑 2024때 진입
 		{
-			//sumDays += (setYear / 4) + 1;
 			sumDays++;
-			//printf("sumday2는 %d", sumDays);//sum2
 		}
 			for (int i = 0; i < iM - 1; i++)//월계산
 			{
